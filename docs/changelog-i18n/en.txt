@@ -1,0 +1,34 @@
+Changelog
+• v3.1.4 · Refactored storage constant naming and merged IDB migration into two-phase transaction for crash-recoverable ordering; optimized new user migration skip; added batch upload deduplication with 12-image cap
+
+• v3.1.3 · Implemented storage version migration for localStorage and IndexedDB, unified storage key naming, fixed thumbnail persistence logic in local mode.
+
+• v3.1.2 · Renamed _locales/pt to pt_BR for Chrome Web Store compliance; unified changelog format to compact style; renamed Portuguese files to pt_BR for consistency.
+
+• v3.1.1 · Switched Bing API to Promise.any race mode with 8-second AbortController timeout; updated all 16 language READMEs to reflect the new fetch strategy.
+
+• v3.1.0 · Local wallpaper gallery: upload/delete/rotate multiple local wallpapers, batch file selection; code refactoring; improved panel styling; comprehensive i18n localization; fixed CSP by removing JSON API domains.
+
+• v3.0.5 · Upgraded Bing API proxy (regionalized requests + image dedup); optimized wallpaper caching; unified localStorage key names; added 16-language changelog; improved logging and code semantics.
+
+• v3.0.4 · Fixed wallpaper loading failure: CSP img-src allowlist was missing Bing CDN domains, causing images redirected by the proxy API to be blocked by the browser.
+
+• v3.0.3 · Bypassed CSSOM for accelerated first-frame rendering, CSP security hardening, dead code cleanup, added SVG icons and promotional assets.
+
+• v3.0.2 · Dark mode adaptive background, code structure refactoring, bottom multi-language info bar.
+
+• v3.0.1 · Integrated Chrome Search API, passed Chrome Web Store single-purpose compliance review.
+
+• v3.0.0 · Complete rewrite: dual-layer architecture eliminates white flash on new tab, added fallback gray background.
+
+• v2.2.7 · Added README in English, Japanese, Korean, Russian, and Simplified Chinese; changed default search mode to "always visible".
+
+• v2.2.6 · Optimized wallpaper loading logic and thumbnail caching; reorganized Bing API constants.
+
+• v2.2.5 · Wallpaper preloading and first-frame optimization, eliminating white screen on new tab.
+
+• v2.2.4 · Migrated wallpaper storage from localStorage to IndexedDB.
+
+• v2.2.3 · Local wallpaper upload, improved search engine switching experience.
+
+• v1.2.0 · Initial release: wallpaper system, 16-language UI, Chrome i18n localization, MIT license.

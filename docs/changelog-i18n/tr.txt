@@ -1,0 +1,34 @@
+Güncelleme Geçmişi
+• v3.1.4 · Depolama sabitleri yeniden adlandırıldı ve IDB geçişi çökme sonrası kurtarılabilir sıralama için iki aşamalı işlemde birleştirildi; yeni kullanıcı geçiş atlaması optimize edildi; toplu yüklemede tekilleştirme ve 12 görsel sınırı eklendi
+
+• v3.1.3 · localStorage ve IndexedDB için depolama sürüm geçişi uygulandı, depolama anahtar adlandırması birleştirildi, yerel modda küçük resim kalıcılık mantığı düzeltildi.
+
+• v3.1.2 · Chrome Web Store uyumluluğu için _locales/pt, pt_BR olarak yeniden adlandırıldı; changelog biçimi tek satırlık kompak stilde birleştirildi; Portekizce dosyalar tutarlılık için pt_BR olarak yeniden adlandırıldı.
+
+• v3.1.1 · Bing API'si Promise.any yarış moduna geçirildi ve 8 saniyelik AbortController zaman aşımı eklendi; yeni getirme stratejisini yansıtmak için 16 dildeki README dosyalarının tamamı güncellendi.
+
+• v3.1.0 · Yerel duvar kağıdı galerisi: birden çok yerel duvar kağıdını yükleme/silme/döngüye alma, toplu dosya seçimi; kod yeniden düzenlemesi; panel stilleri iyileştirildi; çoklu dil desteği genişletildi; CSP'den JSON API alan adları kaldırıldı.
+
+• v3.0.5 · Bing API vekili yükseltildi (bölgeselleştirilmiş istek + görsel yineleme koruması); duvar kağıdı önbelleği optimize edildi; localStorage anahtar adları birleştirildi; 16 dilde changelog eklendi; günlük kaydı ve kod anlam bilgisi iyileştirildi.
+
+• v3.0.4 · Duvar kağıdı yükleme hatası düzeltildi: CSP img-src beyaz listesinde Bing CDN alan adı eksik olduğundan vekil API yönlendirmesi sonrası görseller tarayıcı tarafından engelleniyordu.
+
+• v3.0.3 · CSSOM ile ilk kare işleme hızlandırıldı, CSP güvenliği güçlendirildi, ölü kod temizlendi, SVG simgeler ve tanıtım materyalleri eklendi.
+
+• v3.0.2 · Karanlık modda uyarlanabilir arka plan, kod yapısı yeniden düzenlendi, altta çok dilli bilgi çubuğu eklendi.
+
+• v3.0.1 · Chrome Search API entegre edildi, Chrome Web Mağazası tek amaç uyumluluğu denetiminden geçildi.
+
+• v3.0.0 · Tamamen yeniden yazıldı: yeni sekme beyaz ekran parlamasını ortadan kaldırmak için çift katman mimarisi, yedek gri arka plan eklendi.
+
+• v2.2.7 · İngilizce/Japonca/Korece/Rusça/Basitleştirilmiş Çince olmak üzere beş dilde README eklendi, varsayılan arama modu "her zaman göster" olarak değiştirildi.
+
+• v2.2.6 · Duvar kağıdı yükleme mantığı ve küçük resim önbelleği optimize edildi, Bing API sabitleri düzenlendi.
+
+• v2.2.5 · Duvar kağıdı ön yükleme ve ilk kare iyileştirmeleri, yeni sekme beyaz ekranı giderildi.
+
+• v2.2.4 · Duvar kağıdı depolama birimi localStorage'dan IndexedDB'ye taşındı.
+
+• v2.2.3 · Yerel duvar kağıdı yükleme ve arama motoru geçiş deneyimi iyileştirildi.
+
+• v1.2.0 · İlk sürüm: duvar kağıdı sistemi, 16 dil arayüzü, Chrome i18n yerelleştirmesi, MIT lisansı.
